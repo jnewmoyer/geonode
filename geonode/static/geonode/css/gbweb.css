@@ -1,0 +1,78 @@
+/* setting font fixes combobox rendering issues in IE. See
+ * http://extjs.com/forum/showthread.php?t=72505 */
+body {
+    font-family:helvetica,tahoma,verdana,sans-serif;
+}
+
+/* don't wrap lines on any tooltips */
+.x-tip {
+    white-space: nowrap;
+}
+
+/* application css goes here */
+
+.olControlAttribution {
+    text-align: right;
+    font-size: 9px;
+    bottom: 2px;
+}
+
+.x-btn .login {
+    background-image: url(img/silk/door_in.png);
+}
+
+.x-btn .logout {
+    background-image: url(img/silk/door_out.png);
+}
+
+.slidedeckpanel {
+	text-align: center;
+}
+
+#SlideDeckView {
+    font: 11px Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#SlideDeckView .thumb-wrap {
+	float: left;
+    padding: 5px;  
+    margin-left: 10px;
+}
+#SlideDeckView .thumb {
+}
+#SlideDeckView .thumb img { 
+    border:  4px solid #404040;
+    width: 114px;
+    height: 88px;
+}
+#SlideDeckView .thumb-wrap span {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+#SlideDeckView .x-view-selected {
+    background:#8db2e3;
+}
+#SlideDeckView .x-item-over {
+    background:#8db2e3;
+}
+
+.PowerPoint-icon {
+	background-image: url(img/powerpoint-icon.png);
+}
+
+.camera-icon {
+	background-image: url(img/camera.png);
+}
+
+.map-save-icon {
+    background-image: url(img/map_save.png);
+}
+
+.map-icon {
+    background-image: url(img/map.png);
+}
+
+.image-export {
+	background-image: url(img/image-export.png);
+}
